@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.chat-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.chat-header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.chat-messages {
+  height: 400px;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.message {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.message-user {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.message-text {
+  color: #333;
+}
+
+.chat-input {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  outline: none;
+  font-size: 16px;
+}
+
+.chat-input input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.chat-input button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+.chat-input button:hover {
+  background-color: #0056b3;
+}
